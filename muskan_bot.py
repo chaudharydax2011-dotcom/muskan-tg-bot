@@ -13,7 +13,7 @@ from telegram.ext import (
 
 # Credentials - Railway Variables se lega automatically
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8181271632:AAESOXMcx0tAtA_TlHFOiaKXaCqbVZ3Xovs")
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
 ADMIN_USER_ID = int(os.environ.get("ADMIN_USER_ID", "6756026014"))
 
 MODEL = "openai/gpt-oss-120b:free"
