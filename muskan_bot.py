@@ -16,10 +16,10 @@ TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8181271632:AAESOXMcx0
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
 ADMIN_USER_ID = int(os.environ.get("ADMIN_USER_ID", "6756026014"))
 
-MODEL = "deepseek/deepseek-v4-flash:free"
+MODEL = "openai/gpt-oss-120b:free"
 FALLBACK_MODELS = [
     "meta-llama/llama-4-maverick:free",
-    "openai/gpt-oss-120b:free",
+    "deepseek/deepseek-v4-flash:free",
     "openrouter/free",
 ]
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
