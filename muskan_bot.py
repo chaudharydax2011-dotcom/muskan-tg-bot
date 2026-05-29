@@ -13,7 +13,7 @@ from telegram.ext import (
 
 # Credentials - Railway Variables se lega automatically
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8181271632:AAESOXMcx0tAtA_TlHFOiaKXaCqbVZ3Xovs")
-OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "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")
 ADMIN_USER_ID = int(os.environ.get("ADMIN_USER_ID", "6756026014"))
 
 MODEL = "deepseek/deepseek-v4-flash:free"
