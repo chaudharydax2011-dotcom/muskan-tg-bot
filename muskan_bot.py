@@ -237,7 +237,7 @@ def main():
     print(f"   Model  : {MODEL}")
     print(f"   Admin  : {ADMIN_USER_ID}")
     print("   Press Ctrl+C to stop.\n")
-        app = Application.builder().token(TELEGRAM_BOT_TOKEN).updater(None).build()
+    app = Application.builder().token(TELEGRAM_BOT_TOKEN).updater(None).build()
 
     # Register handlers
     app.add_handler(CommandHandler("start", start))
